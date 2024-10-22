@@ -1,0 +1,94 @@
+.navbar .right {
+    height: 100%;
+}
+
+.navbar .right .ul {
+    flex-direction: column;
+}
+
+.navbar .right .ul .nav-list {
+    padding: 20px 0;
+}
+
+.navbar .left img {
+    width: 50%;
+    margin-top: 6px;
+}
+
+.foot .footing {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.foot .footing .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot .footing .row .same {
+    text-align: center;
+    width: 100%;
+}
+
+.foot .footing .row .det p {
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.foot .footing .row .det .flex {
+    justify-content: center;
+}
+
+.foot .footing .row .det .flex h1 {
+    font-size: 30px;
+}
+
+
+/*                                            menu button                                                 */
+
+.menu {
+    display: block;
+}
+
+.menu img {
+    width: 10%;
+    position: absolute;
+    top: 4%;
+    right: 3%;
+}
+
+.navbar .right .none {
+    display: none;
+}
+
+.navbar .left {
+    border-bottom: 5px solid;
+}
+
+.form form .element input {
+    margin-right: 0;
+    width: 90%;
+}
+
+.form form textarea {
+    width: 94%;
+    margin-right: 0px;
+}
+
+.section .head_contact {
+    padding: 70px 0 215px;
+}
+
+.section .form .form-head {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar .left img {
+    width: 60%;
+}
+
+.section .form {
+    padding: 5px;
+}

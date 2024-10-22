@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.active {
+    text-shadow: 0px 0px 20px white;
+}
+
+.menu {
+    display: none;
+}
+
+
+/*                                                    navbar                                          */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .left {
+    text-align: center;
+}
+
+.navbar .left img {
+    width: 31%;
+    margin-top: 6px;
+}
+
+.navbar .right {
+    width: 100%;
+    height: 60px;
+    background-color: #142850;
+}
+
+.navbar .right .ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar .right .ul .nav-list a {
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* FOOTER  */
+
+.foot {
+    background-color: rgb(11, 11, 59);
+    color: white;
+}
+
+.foot .footing {
+    padding: 60px;
+    font-size: 17px;
+}
+
+.foot .footing .row {
+    display: flex;
+}
+
+.foot .footing .row .det {
+    width: 41%;
+}
+
+.foot .footing .row .det p {
+    padding-top: 25px;
+    padding-right: 60px;
+    color: rgb(187, 185, 185);
+}
+
+.foot .footing .row .service {
+    width: 15%;
+}
+
+.foot .footing .row .socials {
+    width: 15%;
+}
+
+.foot .footing .row .open {
+    width: 30%;
+}
+
+.foot .footing .row .det .flex {
+    display: flex;
+    align-items: center;
+}
+
+.foot .footing .row .det .flex h1 {
+    font-size: 35px;
+}
+
+.foot .footing .row .det img {
+    width: 45px;
+    padding: 10px;
+}
+
+.foot .footing .row .same h3 {
+    padding: 20px;
+    font-size: 21px;
+}
+
+.foot .footing .row .same .ul {
+    list-style-type: none;
+}
+
+.foot .footing .row .same .ul .li {
+    padding-top: 10px;
+}
+
+.foot .footing .row .same .ul .li a {
+    text-decoration: none;
+    color: rgb(187, 185, 185);
+}
+
+.foot .footing .row .same .ul .li a:hover {
+    color: greenyellow;
+}
+
+.foot .footing .row .open div {
+    padding: 10px;
+    color: rgb(187, 185, 185);
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(11, 11, 59);
+    font-size: 17px;
+}
+
+
+/*                                Service section                                         */
+
+.section .head {
+    background-image: url('../img/service/head.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .head h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.section .cont .row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section .cont {
+    margin: 5% 0;
+}
+
+.section .cont .row-flex .box6 {
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.section .cont .row-flex .box6:hover {
+    box-shadow: 0px 0px 50px 1px grey;
+}
+
+.section .cont .row-flex .box6 .text {
+    height: 200px;
+    text-align: center;
+}
+
+.section .cont .row-flex .box6 .text h2 {
+    padding: 25px 0px 10px;
+    font-size: 28px;
+}
+
+.section .cont .row-flex .box6 .text h2 span {
+    color: #0557fc;
+}
+
+.section .cont .row-flex .box6 .text p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.section .cont .row-flex .box6 .text a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section .cont .row-flex .box6 .text a:hover {
+    border-bottom: 3px solid #0557fc;
+}

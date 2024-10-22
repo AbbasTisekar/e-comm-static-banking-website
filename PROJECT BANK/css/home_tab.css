@@ -1,0 +1,250 @@
+.navbar::before {
+    content: "";
+    display: none;
+}
+
+.navbar #logo {
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.navbar #navigation .ul {
+    display: flex;
+    flex-direction: column;
+    height: 0%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar #navigation .none {
+    display: none;
+}
+
+.navbar #logo .img {
+    width: 30%;
+    height: 83%;
+    padding-left: 0px;
+    /* padding-top: 0px; */
+}
+
+.navbar {
+    display: flex;
+    height: 100%;
+    border-bottom: 2px solid;
+    transition: all 20s linear;
+}
+
+.navbar #navigation {
+    /* display: none; */
+    background-color: #142850;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar #navigation .ul li {
+    padding: 25px;
+}
+
+.navbar .menu {
+    position: absolute;
+    top: 20px;
+    display: block;
+    z-index: 5;
+    right: 3%;
+    cursor: pointer;
+}
+
+.navbar .menu img {
+    /* border: 2px solid #142850; */
+    width: 70px;
+    border-radius: 30px;
+}
+
+.contact .inner-contact {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.contact .inner-contact .detail p {
+    width: 100%;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+#connect .outer {
+    width: 100%;
+    border: none;
+}
+
+#connect #social {
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+#connect .outer #social .item {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    padding: 10px 0px;
+}
+
+.contact .inner-contact {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.container .paraBtn p {
+    padding: 0px 50px;
+    font-size: 20px;
+}
+
+.section .image {
+    width: 100%;
+    text-align: center;
+    flex: 1;
+    height: 100%;
+    margin: auto;
+}
+
+.section .text {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.section .text .first {
+    margin-bottom: 73px;
+}
+
+.foot .footing {
+    padding: 18px;
+    font-size: 17px;
+}
+
+.foot .footing .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot .footing .row .same {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.a p {
+    padding-right: 0px;
+}
+
+.foot .footing .row .det p {
+    padding-top: 20px;
+    padding-right: 0;
+    color: rgb(187, 185, 185);
+}
+
+.foot .footing .row .det .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review .box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* margin: 20px 60px; */
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0px 0px 500px 0px #cef0f8;
+}
+
+.section .image #img {
+    width: 0;
+    margin: 5% 0 0;
+}
+
+.navbar #logo .img {
+    width: 45%;
+    /* height: 83%; */
+    padding-left: 0px;
+    /* padding-top: 0px; */
+}
+
+#description {
+    padding: 5% 5% 0;
+}
+
+.review .box .items {
+    text-align: center;
+    padding: 32px;
+}
+
+.contact .inner-contact .detail {
+    margin: 0px;
+    font-size: 18px;
+    /* flex: 1; */
+}
+
+#connect {
+    padding-bottom: 0px;
+}
+
+#connect #head {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section .text .second {
+    display: flex;
+    flex-direction: column-reverse;
+    /* padding-bottom: 29px; */
+    color: #5c5c5c;
+}
+
+.section .text .second .a {
+    margin-bottom: 30px;
+}
+
+#imaging {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+#description .section .text .second .a {
+    padding-bottom: 0px;
+}
+
+.section .image {
+    display: none;
+}

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    text-shadow: 0px 0px 20px white;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.menu {
+    display: none;
+}
+
+
+/*                                                    navbar                                          */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .left {
+    text-align: center;
+}
+
+.navbar .left img {
+    width: 31%;
+    margin-top: 6px;
+}
+
+.navbar .right {
+    width: 100%;
+    height: 60px;
+    background-color: #142850;
+}
+
+.navbar .right .ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar .right .ul .nav-list a {
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* FOOTER  */
+
+.foot {
+    background-color: rgb(11, 11, 59);
+    color: white;
+}
+
+.foot .footing {
+    padding: 60px;
+    font-size: 17px;
+}
+
+.foot .footing .row {
+    display: flex;
+}
+
+.foot .footing .row .det {
+    width: 41%;
+}
+
+.foot .footing .row .det p {
+    padding-top: 25px;
+    padding-right: 160px;
+    color: rgb(187, 185, 185);
+}
+
+.foot .footing .row .service {
+    width: 15%;
+}
+
+.foot .footing .row .socials {
+    width: 15%;
+}
+
+.foot .footing .row .open {
+    width: 30%;
+}
+
+.foot .footing .row .det .flex {
+    display: flex;
+    align-items: center;
+}
+
+.foot .footing .row .det .flex h1 {
+    font-size: 35px;
+}
+
+.foot .footing .row .det img {
+    width: 45px;
+    padding: 10px;
+}
+
+.foot .footing .row .same h3 {
+    padding: 20px;
+    font-size: 21px;
+}
+
+.foot .footing .row .same .ul {
+    list-style-type: none;
+}
+
+.foot .footing .row .same .ul .li {
+    padding-top: 10px;
+}
+
+.foot .footing .row .same .ul .li a {
+    text-decoration: none;
+    color: rgb(187, 185, 185);
+}
+
+.foot .footing .row .same .ul .li a:hover {
+    color: greenyellow;
+}
+
+.foot .footing .row .open div {
+    padding: 10px;
+    color: rgb(187, 185, 185);
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(11, 11, 59);
+    font-size: 17px;
+}
+
+
+/*                                      contact us section                                      */
+
+.section .head_contact {
+    background-image: url('../img/contact_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 70px 0 260px;
+}
+
+.section .head_contact h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+
+.section .form {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 69px -25px grey;
+    padding: 70px;
+}
+
+.section .form .form-head h2 {
+    font-size: 40px;
+    margin-bottom: 6px;
+}
+
+.section .form .form-head {
+    margin-bottom: 40px;
+}
+
+.section .form .form-head p {
+    font-size: 18px;
+}
+
+.ff {
+    margin-top: -175px;
+}
+
+.form form .element input {
+    margin-right: 64px;
+    width: 40%;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 2%;
+    border: 1px solid rgb(201, 199, 199);
+}
+
+.form form textarea {
+    border: 1px solid rgb(201, 199, 199);
+    outline: none;
+    width: -webkit-fill-available;
+    margin-right: 61px;
+}
+
+.row1 {
+    margin: 90px 45px;
+}
+
+.row1 .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.row1 .inner .most-inner {
+    padding: 25px;
+    margin: 20px;
+}
+
+.row1 .inner .most-inner h4 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.row1 .inner .most-inner ul {
+    list-style-type: none;
+}
+
+.map {
+    margin: -10px 0px 35px;
+}

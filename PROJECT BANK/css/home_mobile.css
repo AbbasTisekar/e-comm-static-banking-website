@@ -1,0 +1,171 @@
+.navbar .menu img {
+    width: 40px;
+    border-radius: 30px;
+}
+
+.navbar .menu {
+    position: absolute;
+    top: 0%;
+    display: block;
+    z-index: 5;
+    right: 4%;
+    cursor: pointer;
+}
+
+.navbar #logo .img {
+    width: 45%;
+    height: 0%;
+    padding-left: 0px;
+    /* padding-top: 0px; */
+}
+
+.container .main-logo .img {
+    width: 55%;
+    height: 0%;
+    margin-top: 20px;
+}
+
+.main .container .main-logo {
+    text-align: center;
+}
+
+.container .heading .animate .animated-text li {
+    list-style-type: none;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.container .heading .animate .animated-text {
+    padding-left: 10px;
+    height: 43px;
+    text-align: center;
+    overflow: hidden;
+    /* overflow: visible; */
+}
+
+.container .heading .animate .animated-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 90%;
+    background: white;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(8) infinite;
+    /* animation: none; */
+}
+
+@keyframes slide {
+    100% {
+        top: -190px;
+    }
+}
+
+.container .paraBtn p {
+    padding: 0px 50px;
+    font-size: 18px;
+}
+
+.container .heading .animate .animated-text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background: white;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(16) infinite;
+    /* animation: none; */
+}
+
+@keyframes typing {
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.main .top {
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+    right: 20px;
+}
+
+.main .top a img {
+    width: 50px;
+    border-radius: 15px;
+}
+
+.section .text .first h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #323232;
+}
+
+.section .text .second {
+    display: flex;
+    flex-direction: column-reverse;
+    color: #5c5c5c;
+}
+
+#description .section .text .second .a {
+    padding-bottom: 30px;
+}
+
+.review .box {
+    padding: 0px;
+}
+
+.review .box {
+    margin: 10px;
+}
+
+.contact .inner-contact .detail h2 {
+    font-size: 33px;
+    padding-bottom: 15px;
+}
+
+.contact .inner-contact .detail {
+    margin: 0px;
+    font-size: 15px;
+    /* flex: 1; */
+}
+
+.contact .inner-contact .detail p {
+    padding-bottom: 35px;
+}
+
+#connect #head h1 {
+    font-size: 37px;
+    padding: 15px;
+}
+
+#connect .outer #social .item {
+    padding: 0;
+}
+
+.foot .footing .row .det img {
+    width: 45px;
+    padding: 10px;
+}
+
+.foot .footing .row .det .flex h1 {
+    font-size: 25px;
+}
+
+.foot .footing .row .det p {
+    padding-top: 10px;
+}
+
+.foot .footing .row .same h3 {
+    padding: 20px 0 0px;
+    font-size: 25px;
+}
+
+.navbar #navigation .ul li {
+    padding: 20px;
+}

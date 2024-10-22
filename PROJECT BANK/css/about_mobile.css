@@ -1,0 +1,113 @@
+.navbar .right {
+    height: 100%;
+}
+
+.navbar .right .ul {
+    flex-direction: column;
+}
+
+.navbar .right .ul .nav-list {
+    padding: 20px 0;
+}
+
+.navbar .left img {
+    width: 50%;
+    margin-top: 6px;
+}
+
+.foot .footing {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.foot .footing .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot .footing .row .same {
+    text-align: center;
+    width: 100%;
+}
+
+.foot .footing .row .det p {
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.foot .footing .row .det .flex h1 {
+    font-size: 30px;
+}
+
+
+/*                                            menu button                                                 */
+
+.menu {
+    display: block;
+}
+
+.menu img {
+    width: 10%;
+    position: absolute;
+    top: 4%;
+    right: 3%;
+}
+
+.navbar .right .none {
+    display: none;
+}
+
+.navbar .left {
+    border-bottom: 5px solid;
+}
+
+.header {
+    flex-direction: column;
+}
+
+.para1 .align {
+    flex-direction: column;
+}
+
+.header .imge {
+    flex: 1;
+    text-align: center;
+}
+
+.header .imge img {
+    width: 70%;
+}
+
+.para1 .align .paras {
+    width: 100%;
+    padding: 25px 21px;
+}
+
+.header .paragr {
+    padding: 20% 0 0px;
+    flex: 1;
+}
+
+.flex-area .flexwrap {
+    flex-direction: column;
+}
+
+.flex-area .headingarea {
+    font-size: 22px;
+}
+
+.header .paragr .textarea h2 {
+    font-size: 35px;
+}
+
+.header .paragr .textarea h4 {
+    font-size: 24px;
+}
+
+.header .paragr .textarea .first_para {
+    font-size: 17px;
+}
+
+.header .paragr .textarea .last_para {
+    font-size: 17px;
+}
